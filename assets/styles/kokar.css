@@ -859,7 +859,6 @@ a {
 	border: 1px solid var(--kokar-theme);
 	border-radius: 0 10px 10px 10px;
 	cursor: pointer;
-	height: 302px;
 	position: relative;
 	bottom: 0;
 	transition: 0.2s;
@@ -872,6 +871,7 @@ a {
 
 .members__single img {
 	border-radius: 0 10px 0 0;
+	width: 260px;
 }
 
 .members__single__text {

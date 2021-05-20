@@ -7,7 +7,7 @@
 		<meta charset="utf-8">
 		
 		<!-- Web Page Title -->
-		<title>About Us | Kokar</title>
+		<title>Kokar - About Us</title>
 		
 		<!-- External Fonts / Stylesheets -->
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap">
@@ -27,16 +27,22 @@
 					</div>
 					<div class="info__phone">
 						<img src="assets/images/icons/phone.svg" alt="Phone Icon">
-						<span>+964770 103 0962</span>
+						<span>+964770 888 6060</span>
 					</div>
 				</div>
 				<div class="contact-bar__msg">
 					Welcome To Kokar
 				</div>
 				<div class="contact-bar__social">
-					<a href="#" target="_blank"><img src="assets/images/icons/facebook.svg" alt="Facebook's Logo"></a>
-					<a href="#" target="_blank"><img src="assets/images/icons/twitter.svg" alt="Twitter's Logo"></a>
-					<a href="#" target="_blank"><img src="assets/images/icons/instagram.svg" alt="Instagram's Logo"></a>
+					<a href="https://facebook.com/kokar.org" target="_blank">
+						<img src="assets/images/icons/facebook.svg" alt="Facebook's Logo">
+					</a>
+					<a href="https://twitter.com/kokar_org" target="_blank">
+						<img src="assets/images/icons/twitter.svg" alt="Twitter's Logo">
+					</a>
+					<a href="https://instagram.com/kokar_org" target="_blank">
+						<img src="assets/images/icons/instagram.svg" alt="Instagram's Logo">
+					</a>
 				</div>
 			</div>
 		</div>
@@ -45,17 +51,17 @@
 		<header class="site-header">
 			<div class="container">
 				<div class="site-header__branding">
-					<a href="#"><img src="assets/images/logos/kokar_header.png" alt="Kokar's Logo"></a>
+					<a href="home.html"><img src="assets/images/logos/kokar_header.png" alt="Kokar's Logo"></a>
 				</div>
 				<nav class="site-header__navigation">
 					<a href="home.html">HOME</a>
-					<a href="events.html">EVENTS</a>
-					<a href="volunteers.html">VOLUNTEERS</a>
-					<a href="sdgs.html">SDGs</a>
-					<a href="join.html">JOIN US</a>
+					<a href="events.html" class="disabled-link">EVENTS</a>
+					<a href="volunteers.html" class="disabled-link">VOLUNTEERS</a>
+					<a href="sdgs.html" class="disabled-link">SDGs</a>
+					<a href="join.html" class="disabled-link">JOIN US</a>
 					<a href="about.html" class="active">ABOUT US</a>
-					<a href="#" class="site-header__donate-btn">DONATE</a>
-					<a href="#" class="site-header__lang-btn">LANGUAGE</a>
+					<a href="#" class="site-header__donate-btn donate-btn-action disabled-link">DONATE</a>
+					<a href="#" class="site-header__lang-btn disabled-link" id="language-btn">LANGUAGE</a>
 				</nav>
 				<img id="hamburger-btn" src="assets/images/icons/hamburger_closed.svg" alt="">
 			</div>
@@ -72,14 +78,14 @@
 					</div>
 					<div class="meet-the-team__members">
 						<div class="members__single">
-							<img src="https://via.placeholder.com/263x219">
+							<img src="assets/images/founders/ismael.jpg">
 							<div class="members__single__text">
 								<h3>Ismael Majeed Ismael</h3>
 								<span>Cofounder and Director</span>
 							</div>
 						</div>
 						<div class="members__single">
-							<img src="https://via.placeholder.com/263x219">
+							<img src="assets/images/founders/halo.jpg">
 							<div class="members__single__text">
 								<h3>Hallo Ali Hama</h3>
 								<span>Cofounder and Deputy Director</span>
@@ -178,22 +184,49 @@
 			</div>
 		</section>
         
-        <section class="partners" style="background: #F9FAF9">
+        <section class="partners">
 			<h2>Partners</h2>
 			<div class="container">
 				<div class="partner-logos">
 					<div class="partner">
-						<img src="assets/images/logos/partner_logo.png">
+						<img src="assets/images/partner-logos/garden-city.png">
 					</div>
 					<div class="partner">
-						<img src="assets/images/logos/partner_logo.png">
+						<img src="assets/images/partner-logos/pal.png">
 					</div>
 					<div class="partner">
-						<img src="assets/images/logos/partner_logo.png">
+						<img src="assets/images/partner-logos/abg.jpg">
+					</div>
+				</div>
+				<div class="partner-logos" style="margin-top: 50px">
+					<div class="partner">
+						<img src="assets/images/partner-logos/dash.png">
+					</div>
+					<div class="partner">
+						<img src="assets/images/partner-logos/mesopotamia.png">
+					</div>
+					<div class="partner">
+						<img src="assets/images/partner-logos/vim.png">
+					</div>
+				</div>
+				<div class="partner-logos" style="margin-top: 50px">
+					<div class="partner">
+						<img src="assets/images/partner-logos/uok.png">
+					</div>
+					<div class="partner">
+						<img src="assets/images/partner-logos/karwanchi.png">
+					</div>
+					<div class="partner">
+						<img src="assets/images/partner-logos/ma.jpg">
+					</div>
+				</div>
+				<div class="partner-logos" style="margin-top: 50px">
+					<div class="partner">
+						<img src="assets/images/partner-logos/metrography.png">
 					</div>
 				</div>
 			</div>
-        </section>
+		</section>
 
         <section class="contact-us">
             <div class="container">
@@ -211,15 +244,15 @@
 				<div class="contact-us__info">
 					<div class="email">
 						<img src="assets/images/icons/contact_envelope.svg">
-						<span>info@mail.com</span>
+						<span>info@kokar.org</span>
 					</div>
 					<div class="phone">
 						<img src="assets/images/icons/contact_phone.svg">
-						<span>877-255-7945</span>
+						<span>+964770 888 6060</span>
 					</div>
 					<div class="location">
 						<img src="assets/images/icons/location.svg">
-						<span>Location Form</span>
+						<span>Kokar's Office</span>
 					</div>
 				</div>
             </div>
