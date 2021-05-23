@@ -2,7 +2,6 @@
  * TODO: Write Documentation
 */
 $( document ).ready(function() {
-	$(".modal2").fadeIn();
 	// Check Whether The 'display' Property Of The <span>'s Is 'none' Or Not
 	// In Order For The Following Code Not To Work On Desktops
 	
