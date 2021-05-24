@@ -808,10 +808,11 @@ a {
 .kokar-vision > .container {
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 }
 
-.kokar-vision__text {
-	max-width: 458px;
+.kokar-vision__text h2 {
+	text-align: center;
 }
 
 .kokar-vision__text > h2 {
